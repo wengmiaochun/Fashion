@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	padding-top: 50px;
+}
+.carousel {
+	height: 450px;
+	margin-bottom: 60px;
+	background-color: #000;
+}
+.carousel .item {
+	height: 450px;
+	background-color: #000;
+}
+.carousel img {
+	width: 100%;
+}
+.pagination{
+	display: inline-block;
+}
+.page_container{
+	text-align: center;
+}
+
+/* 简介 */     
+.summary .col-md-4 {
+	text-align: center;
+}
+.feature-divider {
+	margin: 20px 0;
+}
+.feature {
+	padding: 30px 0;
+}
+.feature-heading {
+	font-size: 50px;
+	color: #2a6496;
+}
+footer {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 80px;
+	line-height: 80px;
+	margin-top: 100px;
+}
+footer p {
+	color: #fff;
+	text-align: center;
+}
+.totop{
+	position: fixed;
+	right: 0px;
+	bottom:100px;
+}
