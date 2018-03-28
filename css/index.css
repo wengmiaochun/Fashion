@@ -2,9 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-body {
-	padding-top: 50px;
-}
 .carousel {
 	height: 450px;
 	margin-bottom: 60px;
@@ -38,6 +35,7 @@ body {
 	font-size: 50px;
 	color: #2a6496;
 }
+
 footer {
 	background-color: rgba(0, 0, 0, 0.7);
 	height: 80px;

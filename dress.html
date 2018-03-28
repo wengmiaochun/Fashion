@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/dress.css">
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='js/me.js'></script>
+  <title>潮我看</title>
+</head>
+<body>
+  <!-- 顶部导航 -->
+  <nav class="navbar navbar-fixed-top navbar-inverse">
+  	<div class="container">
+  		<div class="navbar-header">
+  			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  				<span class="sr-only">切换导航</span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+  			<a class="navbar-brand" href="index.html">首页</a>
+  		</div>
+  		<div id="navbar" class="collapse navbar-collapse">
+  			<ul class="nav navbar-nav">
+  				<li class="active">
+  					<a href="#">限时优惠</a>
+  				</li>
+  				<li>
+  					<a href="#">潮流搭配</a>
+  				</li>
+  				<li>
+  					<a href="#" data-toggle="modal" data-target="#about-modal">关于我们</a>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+  </nav>
+
+  <!-- 侧滑图片 -->
+  <div class="container">
+    <div class="row row-offcanvas row-offcanvas-right">
+      <div class="col-xs-12 col-sm-9">
+        <p class="pull-right visible-xs">
+          <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle</button>
+        </p>
+        <div class="link-tab">
+        	<div class="jumbotron" id="link1">
+        		<img src="img/dress/1.jpg" class="img-responsive center-block">
+        	</div>
+        	<div class="jumbotron" id="link2">
+        		<img src="img/dress/2.jpg" class="img-responsive center-block">
+        	</div>
+        	<div class="jumbotron" id="link3">
+        		<img src="img/dress/3.jpg" class="img-responsive center-block">
+        	</div>
+        	<div class="jumbotron" id="link4">
+        		<img src="img/dress/4.jpg" class="img-responsive center-block">
+        	</div>
+        	<div class="jumbotron" id="link5">
+        		<img src="img/dress/5.jpg" class="img-responsive center-block">
+        	</div>
+        	<div class="jumbotron" id="link6">
+        		<img src="img/dress/6.jpg" class="img-responsive center-block">
+        	</div>
+        </div>
+        <hr/>
+
+    <!-- 商品详情 --> 
+    <div class="row">
+      <div class="col-xs-6 col-lg-4">
+        <img src="img/dress/1.jpg" class="img-responsive center-block">
+        <p>
+         <center><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></center>
+        </p>
+      </div>
+      <div class="col-xs-6 col-lg-4">
+        <img src="img/dress/1.jpg" class="img-responsive center-block">
+        <p>
+         <center><a class="btn btn-default" href="#" role="button">详情  &raquo;</a></center>
+       </p>
+      </div>
+      <div class="col-xs-6 col-lg-4">
+        <img src="img/dress/1.jpg" class="img-responsive center-block">
+        <p>
+         <center><a class="btn btn-default" href="#" role="button">详情  &raquo;</a></center>
+       </p>
+      </div>
+      <div class="col-xs-6 col-lg-4">
+        <img src="img/dress/1.jpg" class="img-responsive center-block">
+        <p>
+         <center><a class="btn btn-default" href="#" role="button">详情  &raquo;</a></center>
+       </p>
+      </div>
+      <div class="col-xs-6 col-lg-4">
+        <img src="img/dress/1.jpg" class="img-responsive center-block">
+        <p>
+         <center><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></center>
+       </p>
+      </div>
+      <div class="col-xs-6 col-lg-4">
+        <img src="img/dress/1.jpg" class="img-responsive center-block">
+        <p>
+         <center><a class="btn btn-default" href="#" role="button">详情 &raquo;</a></center>
+       </p>
+     </div>
+   </div>
+ </div>
+
+    <!-- 侧滑导航 -->
+    <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+    	<div class="list-group">
+    		<a href="#link1" class="list-group-item active">春装新品</a>
+    		<a href="#link2" class="list-group-item">活力童装</a>
+    		<a href="#link3" class="list-group-item">热力夏装</a>
+    		<a href="#link4" class="list-group-item">春日优享</a>
+    		<a href="#link5" class="list-group-item">春新萌动</a>
+    		<a href="#link6" class="list-group-item">早春焕新</a>
+    	</div>
+    </div>
+  </div>
+
+    <!-- 关于 -->
+    <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">
+              <span aria-hidden="true">&times;</span>
+              <span class="sr-only">关闭</span>
+            </button>
+            <h4 class="modal-title" id="modal-label">关于我们</h4>
+          </div>
+          <div class="modal-body">
+            <p>潮我看点亮您的舒适生活。在这里您可以找到适合自己的、高品质的、时尚的、新颖科技面料所制成的服饰。
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--底部版权信息-->
+    <footer>
+      <div class="container">
+        <div class="totop">
+          <img src="img/scrollup.png" alt="回到顶部">
+        </div>
+        <p>© <a href="index.html">潮我看</a>. <a href="#">版权声明</a> <span>|</span> 
+          <a href="#">联系我们</a></p>
+      </div>
+    </footer>
+</body>
+</html>
